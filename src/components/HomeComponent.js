@@ -21,7 +21,6 @@ const cardImgFix15 = {
    maxHeight: "15rem",
 };
 function RenderCard({ item, isLoading, errMess }) {
-   console.log(item);
    if (isLoading) {
       return <Loading />;
    } else if (errMess) {

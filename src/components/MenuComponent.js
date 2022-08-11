@@ -15,7 +15,6 @@ const DishImg = {
    height: "20rem",
    minHeight: "20rem",
    maxHeight: "20rem",
-   borderRadius: 0,
 };
 function RenderMenuItem({ dish, onClick }) {
    return (

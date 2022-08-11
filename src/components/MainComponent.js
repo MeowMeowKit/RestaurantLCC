@@ -26,12 +26,6 @@ class Main extends Component {
       this.props.fetchPromos();
       this.props.fetchLeaders();
    }
-
-   onDishSelect(dishId) {
-      console.log("dishId", dishId);
-      this.setState({ selectedDish: dishId });
-   }
-
    render() {
       const HomePage = () => {
          console.log("this.props.dishes:", this.props.dishes);
